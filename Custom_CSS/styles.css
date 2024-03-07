@@ -161,7 +161,7 @@ section.hero {
 
 .left-hero-info {
     margin: 0 auto;
-    /* padding: 0 20px; */
+    padding: 0 20px;
     padding-top: 30px;
     padding-left: 180px;
     padding-bottom: 40px;
@@ -180,8 +180,8 @@ section.hero {
 }
 
 .left-hero-info h5 {
-    color: #5e5e5e;
-    font-weight: 600;
+    color: #363636;
+    font-weight: 400;
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
@@ -200,11 +200,12 @@ section.hero {
 }
 
 .left-hero-info .bt-info h5 {
-    width: 55%;
+    width: 100%;
     line-height: 1.5em;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 16px;
 }
+
+
 
 .main-hero .right-hero-info img {
     max-width: 100%;
@@ -212,8 +213,8 @@ section.hero {
 }
 
 .call-btn {
-    padding-top: 90px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .call-btn a {
@@ -263,7 +264,7 @@ section.hero {
 
     .left-hero-info {
         margin: 0 auto;
-        /* padding: 0 20px; */
+        padding: 0;
         padding-top: 20px;
     }
 
@@ -284,7 +285,7 @@ section.hero {
     }
 
     left-hero-info {
-        text-items: center;
+        text-align: center;
     }
 
     .left-hero-info h1 {
@@ -307,9 +308,12 @@ section.hero {
 
     .left-hero-info .bt-info h5 {
         width: 100%;
-        padding: 0 60px;
         line-height: 1.5em;
         font-size: 16px;
+    }
+
+    .bt-info {
+        padding: 0 5%;
     }
 
     .left-hero-info h6 {
@@ -326,10 +330,6 @@ section.hero {
         text-align: center;
     }
     
-    .call-btn {
-        padding-top: 40px;
-        /* padding-bottom: 60px; */
-    }
 }
 
 
@@ -362,19 +362,23 @@ section.hero {
     .left-hero-info h1 {
         font-size: 45px;
         line-height: 1em;
-        padding-top: 0px;
+        padding-top: 5px;
         padding-bottom: 10px;
     }
 
     .left-hero-info h5 {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .left-hero-info .bt-info h5 {
-        width: 100%;
-        padding: 0 60px;
+        width: 80%;
+        padding: 0 50px;
         line-height: 1.5em;
         font-size: 16px;
+    }
+
+    .bt-info {
+        padding: 0 1%;
     }
 
     .left-hero-info h6 {
@@ -382,9 +386,5 @@ section.hero {
         letter-spacing: 3px;
         text-align: center;
         text-transform: uppercase;
-    }
-
-    .call-btn {
-        padding-top: 40px;
     }
 }
