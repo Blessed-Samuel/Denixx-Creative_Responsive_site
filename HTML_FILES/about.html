@@ -10,16 +10,32 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- ***********************************NAV-BAR********************************************* -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="../Assets/Logo.webp" alt="Logo" height="30"></a>
+  <section class="header">
+    <nav>
+        <!-- This the nav-brand -->
+        <a href="home.html"><img src="../Assets/Logo.webp" alt=""></a>
+
+        <div class="nav-links">
+            <ul class="top-nav" id="dropdownClick">
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()" style="font-size: 30px; font-weight: 600;">&#9776</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</section> 
+  
+  <!-- ***********************************NAV-BAR********************************************* -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="../Assets/Logo.webp" alt="Logo" height="30PX" width="50px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">HOME</a>
+              <a class="nav-link" href="home.html">HOME</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="about.html">ABOUT</a>
@@ -29,7 +45,7 @@
             </li>
           </ul>
         </div>
-    </nav><br>
+    </nav><br> -->
 
 <!-- ************************** paragraph*************************8 -->
     <div class="container">
@@ -96,6 +112,19 @@
   </div>
 
   <div class="container">
+    <div class="center">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">"Learning today, leading Tomorrow"</h1>
+          <p class="text-center">Osadebe Courage </p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  
+
+  <div class="container">
     <div class="card-sec">
       <div class="row">
         <div class="col-md">
@@ -111,8 +140,8 @@
     
   </div>
 
-  <div class="container">
-    <div class="fav12">
+  <div class="fav12">
+    <div class="container">
       <div class="row">
         <div class="col-sm-5 p-3 text-white">
           <img src="../Assets/Logo.webp" height="80px" width="250px" alt=""><br><br>
@@ -149,7 +178,7 @@
             <p class="custom-margin">&copy; 2024 All rights reserved.</p>
         </div>
         <div class="col-md-6 text-md-right">
-          <!-- <div class="footer12"> -->
+          <div class="footer12">
             <ul class="list-inline">
               <li class="list-inline-item custom-margin"><a href="#">Made with</a></li>
               <li class="list-inline-item custom-margin"><a href="#">by Cater Studio</a></li>
