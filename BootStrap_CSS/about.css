@@ -120,15 +120,16 @@
     color: white;
     border-radius: 70px;
   }
-
+  .fav12{
+    margin-top: 270px;
+  }
   footer{
     background-color: #028374;
     height: 50px;
-    padding-top: 10px;
+    padding-bottom: 80px;
   }
   footer p{
-    color: gold;
-    margin-left: 100px;
+    margin-left: 40px;
   }
   footer a{
     /* margin-right: 100px; */
@@ -139,5 +140,5 @@
     text-decoration: overline;
   }
   .footer12{
-    margin-right: 100px;
+    margin-right: 50px;
   }
