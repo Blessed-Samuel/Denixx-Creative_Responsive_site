@@ -48,7 +48,10 @@
     text-align: center;
 
   }
-  
+  .para1{
+    margin-top: 10px;
+    z-index: -1;
+  }
   .card-sec{
     height: 27em;
     background-color: #028374;
