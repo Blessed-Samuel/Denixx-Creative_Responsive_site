@@ -162,9 +162,9 @@ nav img {
     z-index: 1;
   }
   .card-sec{
-    height: 50em;
+    height: 35em;
     background-color: #028374;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .card-sec h1 ,p ,button{
     color: #A3E3DB;
