@@ -53,6 +53,19 @@
 }
 
 
+.navbar {
+  position: fixed;
+  position: fixed; /* or position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Or any value higher than other elements */
+}
+
+.container {
+  overflow: hidden;
+}
+
 nav,
 header,
 footer {
@@ -149,7 +162,7 @@ nav img {
     z-index: 1;
   }
   .card-sec{
-    height: 27em;
+    height: 50em;
     background-color: #028374;
     margin-bottom: 30px;
   }
@@ -163,13 +176,13 @@ nav img {
   .card-sec button{
     background-color: white;
     color: #028374;
-    margin-top: 30px;
+    margin-top: 5px;
     text-align: center;
     margin-left: 100px;
     width: 250px;
     height: 70px;
     border-radius: 50px;
-
+    margin-bottom: 70px;
   }
   .card-sec button:hover{
     background-color: #A3E3DB;
@@ -186,7 +199,7 @@ nav img {
   }
   .center{
     height: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 400px;
     background-color: white;
   }
   .center h1{
