@@ -22,6 +22,105 @@
     background: #f44336;
 } */
 
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif !important;
+  /* line-height: 1; */
+}
+
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
+  /* position: relative; */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #028374;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+nav,
+header,
+footer {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background-color: #028374;
+}
+
+nav {
+  padding: 0.8% 11%;
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  width: 32%;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+} 
+
+.nav-links ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 10px;
+  position: relative;
+  font-style: normal;
+  text-transform: capitalize;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: 0;
+  word-spacing: 0;
+  padding-top: 20px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 17.5px;
+  color: #a3e3db;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 1px;
+  background: #a3e3db;
+  display: block;
+  margin: auto;
+  transition: 0.1s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.nav-links li.dropdownIcon {
+  display: none;
+}
+
+
+
+
 
 .custom-margin {
     margin-top: 3rem;
