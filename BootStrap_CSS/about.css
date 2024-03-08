@@ -64,7 +64,7 @@
   .card-sec button{
     background-color: white;
     color: #028374;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     margin-left: 100px;
     width: 250px;
@@ -134,12 +134,12 @@
     border-radius: 70px;
   }
   .fav12{
-    margin-top: 70px;
+    margin-top: 250px;
     margin-bottom: 100px;
   }
   footer{
     background-color: #028374;
-    height: 50px;
+    height: 70px;
     padding-bottom: 80px;
     border-radius: 0px  0px 20px 20px;
   }
@@ -152,7 +152,8 @@
   }
   footer a:hover{
     color: pink;
-    text-decoration: overline;
+    text-decoration: underline;
+    transition-duration:20s ;
   }
   .footer12{
     margin-right: 50px;
