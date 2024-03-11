@@ -1,272 +1,84 @@
-/* .navbar-brand{
-    margin-left: 100px;
-}
-
-.navbar-nav{
-    margin-right: 100px;
-}
-
-.nav-links ul li a{
-    color: rgb(41, 39, 39);
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.nav-links ul li::after{
-    content:"";
-    width:  0%;
-    height: 2px;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-    background: #f44336;
-} */
-
-* {
-  margin: 0px;
-  padding: 0px;
+*{
+    
   font-family: "Poppins", sans-serif !important;
-  /* line-height: 1; */
+}
+.navbar-brand {
+  margin-right: 8rem; /* Adjust margin as needed */
+}
+.navbar{
+  background-color: #028374;
+  color: red;
 }
 
 
-/* Width and height of the scrollbar */
-::-webkit-scrollbar {
-  width: 4px;
-  height: 10px;
-  /* position: relative; */
+
+.paragraph1 h1{
+  margin-top: 100px;
+  font-weight: 600 ;
+  font-size: 70px;
+
+}
+.paragraph1 p{
+  margin-top: 40px;
+  font-size: 18px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #fff;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #028374;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-
-.navbar {
-  position: fixed;
-  position: fixed; /* or position: absolute; */
-  top: 0;
-  left: 0;
+.background-section {
+  background-image: url('../assets/Potential.webp'); /* Replace 'your-background-image.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  z-index: 1000; /* Or any value higher than other elements */
+  padding: 280px; /* Adjust padding as needed */
+  margin-top: 30px;
 }
 
-.container {
-  overflow: hidden;
+.double{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}  
+.double h1{
+  font-size: 70px;
+  font-weight: 600;
+}
+.double p{
+  font-size: 18px;
 }
 
-nav,
-header,
-footer {
-  display: block;
+.centext{
+  height: 500px;
+  margin-bottom: 300px;
+  background-color: #F3F5F8;
 }
-
-.header {
-  width: 100%;
-  position: fixed;
+.centext h1{
+  color: #363636;
+  /* margin-top: 100px; */
+  font-size: 70px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 200px;
+  font-weight: 600;
+}
+.centext p{
+  color: #363636;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.card-sec{
+  height: 450px;
   background-color: #028374;
 }
-
-nav {
-  padding: 0.8% 11%;
-  display: flex;
-  align-items: center;
+.text-left{
+  color: pink;
+  margin-top: 100px;
 }
-
-nav img {
-  width: 32%;
-}
-
-.nav-links {
-  flex: 1;
-  text-align: right;
-} 
-
-.nav-links ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 0px 10px;
-  position: relative;
-  font-style: normal;
-  text-transform: capitalize;
-  line-height: 1em;
-  font-weight: 400;
-  letter-spacing: 0;
-  word-spacing: 0;
-  padding-top: 20px;
-}
-
-.nav-links ul li a {
-  text-decoration: none;
-  font-size: 17.5px;
-  color: #a3e3db;
-}
-
-.nav-links ul li::after {
-  content: '';
-  width: 0%;
-  height: 1px;
-  background: #a3e3db;
-  display: block;
-  margin: auto;
-  transition: 0.1s;
-}
-
-.nav-links ul li:hover::after {
-  width: 100%;
-}
-
-.nav-links li.dropdownIcon {
-  display: none;
-}
-
-
-
-
-
-.custom-margin {
-    margin-top: 3rem;
-    color: black;
-    margin-left: 20px; /* You can adjust the margin as per your requirement */
-  }
-
-  .col-md-6 h1{
-    color: black;
-    margin-top: 10%;
-    font-size: 4em;
-    font-weight: 600;
-  }
-
-  .custom-image {
-    /* width: 100%; */
-    max-width: 100%;
-    height: 90%; /* Adjust the height as needed */
-  }
-  .btn-success{
-    text-align: center;
-
-  }
-  .para1{
-    margin-top: 10px;
-    z-index: 1;
-  }
-  .card-sec{
-    height: 35em;
-    background-color: #028374;
-    margin-bottom: 20px;
-  }
-  .card-sec h1 ,p ,button{
-    color: #A3E3DB;
-    margin-left: 100px;
-  }
-  .card-sec p{
-    font-size: 15 px;
-  }
-  .card-sec button{
-    background-color: white;
-    color: #028374;
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 100px;
-    width: 250px;
-    height: 70px;
-    border-radius: 50px;
-    margin-bottom: 70px;
-  }
-  .card-sec button:hover{
-    background-color: #A3E3DB;
-    color: #028374;
-    text-decoration: underline;
-  }
-  .col-md p, h1, button{
-    margin-left: 100px;
-    color: #A3E3DB;
-  }
-  .double{
-    margin-bottom: 150px;
-    border-right: 10px;
-  }
-  .center{
-    height: 400px;
-    margin-bottom: 400px;
-    background-color: white;
-  }
-  .center h1{
-    color: #363636;
-    margin-top: 100px;
-    font-size: 65px;
-    font-weight: 700;
-  }
-  .center p{
-    color: #363636;
-    font-size: 15px;
-    margin-top: 20px;
-  }
-  .fa {
-    padding: 2%;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    height: 50px;
-  }
-  .fa-youtube {
-    background: rgb(2,131,116);
-    border-radius: 70px;
-    color: white;
-  }
+.text-left h6{
   
-  .fa-instagram {
-    background:rgb(2,131,116);
-    color: white;
-    border-radius: 70px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.text-left p{
+  font-size: 20px;
+}
 
-  }
-    
-  .fa-facebook {
-    background: rgb(2,131,116);
-    border-radius: 70px;
-    color: white;
-  }
-  .fa-twitter {
-    background: rgb(2,131,116);
-    color: white;
-    border-radius: 70px;
-  }
-  .fav12{
-    margin-top: 250px;
-    margin-bottom: 100px;
-  }
-  footer{
-    background-color: #028374;
-    height: 70px;
-    padding-bottom: 80px;
-    border-radius: 0px  0px 20px 20px;
-  }
-  footer p{
-    margin-left: 40px;
-  }
-  footer a{
-    /* margin-right: 100px; */
-    color: black;
-  }
-  footer a:hover{
-    color: pink;
-    text-decoration: underline;
-    transition-duration:20s ;
-  }
-  .footer12{
-    margin-right: 50px;
-  }
+
+
