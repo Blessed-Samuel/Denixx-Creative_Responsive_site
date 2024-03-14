@@ -397,6 +397,7 @@ section.Main-sec {
     width: 77%;
     margin: auto;
     padding-top: 80px;
+    /* margin-bottom: 100px;     */
     justify-content: space-between;
 }
 
@@ -534,15 +535,22 @@ section.Main-sec {
 
 
 /* courses section */
+
+.course-inner-row {
+    margin-bottom: 50px;
+}
+
 .course-row {
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 100px;
+    /* margin-bottom: 90px; */
 }
 
 .course-inner-col {
     display: flex;
+    flex-grow: 1;
     flex-direction: row-reverse;
+    
 }
 
 
@@ -563,17 +571,121 @@ section.Main-sec {
 
 .course-img img {
     border-radius: 20px;
+    padding-bottom: 30px;
 }
+
+.info-flex {
+    display: flex;
+}
+
+div.checks {
+    font-size: 10px;
+    padding-top: 9px;
+}
+
+div.checks svg {
+    padding-bottom: 5px;
+    fill: #004139;
+    /* font-size: 90px; */
+    font-weight: 500;
+}
+
+.info ul {
+    padding-left: 5px;
+    padding-bottom: 40px;
+}
+
+.info ul li {
+    list-style: none;
+    position: relative;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color: #363636;
+    padding-left: 5px;
+    line-height: 26px;
+}
+
+.eff {
+    font-weight: 500;
+    text-transform: none;
+}
+
+.info span {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.info h1 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    font-style: normal;
+    color: #222222;
+    font-family: poppins;
+    letter-spacing: -2px;
+    word-spacing: 0em;
+    padding-bottom: 5px;
+}
+
+.info p {
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    color: #171515;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    width: 85%;
+}
+
+.course-btn {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.course-btn a {
+    background: #039886;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 18px 70px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+
+.course-btn a:hover {
+    background: transparent;
+    color: #028374;
+    border: 1px solid #039886;
+    transition: 0.3s;
+}
+
 
 
 
 @media screen and (max-width: 1024px) {
     .course-inner-col {
         flex-direction: column;
+        width: 96%;
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 767px) {
+
+    .course-row {
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .info {
+        padding-left: 20px;
+    }
 
     .course-col h2 {
         font-size: 35px;
@@ -588,5 +700,244 @@ section.Main-sec {
         font-weight: 300;
         line-height: 1.5em;
     }
+
+    .info h1 {
+        font-size: 40px;
+        font-weight: 500;
+        font-style: normal;
+        color: #222222;
+        font-family: poppins;
+        word-spacing: 0em;
+        padding-bottom: 5px;
+    }
+
+    .info p {
+        margin-top: 0;
+        margin-bottom: 2.5em;
+        color: #171515;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        word-spacing: 0em;
+        width: 90%;
+    }
+
+    .info span {
+        font-size: 13px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    div.checks svg {
+        padding-bottom: 6px;
+        fill: #004139;
+        font-weight: 700;
+    }
 }
 
+
+/* Diploma section */
+.course-row {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 90px;
+}
+
+.Diploma-inner-col {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    
+}
+
+
+.Diploma-col h2 {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.Diploma-col h5 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #5e5e5e;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.Diploma-img img {
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.Diploma-info-flex {
+    display: flex;
+}
+
+div.checks {
+    font-size: 14px;
+    padding-top: 9px;
+}
+
+div.checks svg {
+    /* padding-bottom: 5px; */
+    fill: #004139;
+    /* font-size: 90px; */
+    font-weight: 500;
+}
+
+.Diploma-info ul {
+    padding-left: 5px;
+    padding-bottom: 40px;
+}
+
+.Diploma-info ul li {
+    list-style: none;
+    position: relative;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    color: #363636;
+    padding-left: 5px;
+    line-height: 26px;
+}
+
+.eff {
+    font-weight: 500;
+    text-transform: none;
+}
+
+.Diploma-info {
+    padding-left: 80px;
+}
+
+.Diploma-info span {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.Diploma-info h1 {
+    font-size: 2.5vw;
+    font-weight: 500;
+    font-style: normal;
+    color: #222222;
+    font-family: poppins;
+    letter-spacing: -2px;
+    word-spacing: 0em;
+    padding-bottom: 5px;
+}
+
+.Diploma-info p {
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    color: #171515;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    width: 85%;
+}
+
+.Diploma-btn {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.Diploma-btn a {
+    background: #039886;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 18px 70px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1em;
+}
+
+.Diploma-btn a:hover {
+    background: transparent;
+    color: #028374;
+    border: 1px solid #039886;
+    transition: 0.3s;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .Diploma-inner-col {
+        flex-direction: column-reverse;
+        width: 96%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .Diploma-row {
+        text-align: center;
+        padding-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .Diploma-info {
+        padding-left: 20px;
+    }
+
+    .Diploma-col h2 {
+        font-size: 35px;
+        text-transform: uppercase;
+        line-height: 1.1em;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    .Diploma-col h5 {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.5em;
+    }
+
+    .Diploma-info h1 {
+        font-size: 40px;
+        font-weight: 500;
+        font-style: normal;
+        color: #222222;
+        font-family: poppins;
+        word-spacing: 0em;
+        padding-bottom: 5px;
+    }
+
+    .Diploma-info p {
+        margin-top: 0;
+        margin-bottom: 2.5em;
+        color: #171515;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: none;
+        font-style: normal;
+        line-height: 1.5em;
+        letter-spacing: 0em;
+        word-spacing: 0em;
+        width: 90%;
+    }
+
+    .Diploma-info span {
+        font-size: 13px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    div.checks svg {
+        padding-bottom: 6px;
+        fill: #004139;
+        font-weight: 700;
+    }
+}
