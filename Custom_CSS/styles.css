@@ -1380,3 +1380,8 @@ div.testmonials {
         gap: 60px 0;
     }
 }
+
+
+section.learning {
+    display: flex;
+}
