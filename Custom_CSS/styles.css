@@ -1347,3 +1347,36 @@ div.testmonials {
     color: #363636;
     padding-left: 20px;
 }
+
+
+@media screen and (max-width: 1024px){
+    .student-flex {
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: auto;
+        flex-shrink: 1;
+        gap: 60px 0;
+    }
+
+    .students-header h2 {
+        font-size: 40px;
+    }
+
+    div.testmonials {
+        font-size: 17px;
+        width: 85%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .student-flex {
+        flex-direction: column;
+        flex-grow: 1;
+        flex-basis: auto;
+        flex-shrink: 1;
+        gap: 60px 0;
+    }
+}
