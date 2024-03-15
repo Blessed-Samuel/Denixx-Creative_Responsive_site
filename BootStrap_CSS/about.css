@@ -45,7 +45,7 @@
 }
 
 .centext{
-  height: 500px;
+  height: 550px;
   margin-bottom: 300px;
   background-color: #F3F5F8;
 }
@@ -63,9 +63,20 @@
   font-size: 18px;
   margin-top: 20px;
 }
+.main-sec-img{
+  border: 30px;
+  background-color: F3F5F8;
+  height: 650px;
+  padding-top: 50px;
+  border-radius: 30px;
+  margin-top: 100px;
+}
 .card-sec{
   height: 450px;
   background-color: #028374;
+}
+.cat{
+  background-color: red;
 }
 .text-left{
   color: pink;
@@ -104,11 +115,11 @@
   background: #55ACEE;
   color: white;
 }
-.fa-twitter
+
 
 .fav12{
-  margin-top: 200px;
-  margin-bottom: 30px;
+  margin-top: 250px;
+  margin-bottom: 100px;
 }
 .fav12 a{
   color: rgb(141, 133, 133);
